@@ -1,0 +1,24 @@
+<h1>All Tasks</h1>
+
+
+
+<% if (tasks.length === 0) { %>
+    <p>No tasks found.</p>
+<% } else { %>
+    <ul>
+        <% tasks.forEach(task => { %>
+            <li>
+                <strong>
+                    <a href="/tasks/<%= task.id %>"><%= task.title %></a>
+                </strong><br>
+                Status: <%= task.status %>
+            </li>
+            <br>
+        <% }) %>
+    </ul>
+<% } %>
+
+
+<p><a href="/tasks/new">Create new task</a></p>
+
+<p><a href="/">Back to home</a></p>

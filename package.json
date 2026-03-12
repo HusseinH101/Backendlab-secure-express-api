@@ -1,0 +1,36 @@
+{
+  "name": "backendlab-secure-express-api",
+  "version": "1.0.0",
+  "description": "Backend lab with a Node.js Express application built using the MVC pattern that provides a REST API and web interface for managing tasks, with database storage, JWT authentication, API key protection, and EJS-based pages.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HusseinH101/Backendlab-secure-express-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/HusseinH101/Backendlab-secure-express-api/issues"
+  },
+  "homepage": "https://github.com/HusseinH101/Backendlab-secure-express-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.19.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

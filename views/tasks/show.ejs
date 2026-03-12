@@ -1,0 +1,17 @@
+<h1>Task Details</h1>
+
+<p><strong>Title:</strong> <%= task.title %></p>
+
+<p><strong>Description:</strong> <%= task.description %></p>
+
+<p><strong>Status:</strong> <%= task.status %></p>
+
+<p><a href="/tasks/<%= task.id %>/edit">Edit task</a></p>
+
+<form action="/tasks/<%= task.id %>/delete" method="POST">
+    <button type="submit" id="delete">Delete task</button>
+</form>
+
+<p><a href="/tasks">Back to tasks</a></p>
+
+<p><a href="/">Back to home</a></p>

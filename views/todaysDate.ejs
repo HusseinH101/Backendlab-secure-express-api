@@ -1,0 +1,14 @@
+<h1>DATE</h1>
+
+<p>Date: <%= date %></p>
+<p>Day: <%= dayName %></p>
+
+<% if (isFriday) { %>
+    <h2>🎉 It is Friday! 🎉</h2>
+    <p>Time to celebrate!</p>
+    <img src="/Friday.gif" width="400">
+<% } else { %>
+    <h2>Still waiting for Friday...😴</h2>
+<% } %>
+
+<p><a href="/">Back to home</a></p>
