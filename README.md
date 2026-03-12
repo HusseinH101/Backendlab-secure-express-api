@@ -1,7 +1,7 @@
 # Backendlab-secure-express-api-taskmanager
 
 
-A backend lab project built with **Node.js**, **Express**, **MySQL**, **EJS**, and the **MVC pattern**.
+A backend project built with **Node.js**, **Express**, **MySQL**, **EJS**, and the **MVC pattern**.
 
 The application includes:
 - a REST API for task management
